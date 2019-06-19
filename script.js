@@ -1,5 +1,13 @@
 function isPrime (number) {
-  // Your code here
+for (i = 2 ; i < number ; i++){
+
+  var pembagian = number % i
+// console.log (pembagian)
+  if (pembagian === 0){
+    return false
+  }
+}
+return true
 }
 
 // TEST CASES
